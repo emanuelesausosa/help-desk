@@ -15,5 +15,6 @@ class DatabaseSeeder extends Seeder
         $this->call(OrganizacionsTableSeeder::class);
         $this->call(CategoriaPortadasTableSeeder::class);
         $this->call(ContenidoPortadasTableSeeder::class);
+        $this->call(OrganizacionDataTableSeeder::class);
     }
 }

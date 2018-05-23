@@ -12,4 +12,9 @@ class Organizacion extends Model
     {
         return $this->hasMany('App\ContenidoPortada');
     }
+
+    public function organizacion_data()
+    {
+        return $this->hasOne('App\OrganizacionData');
+    }
 }
