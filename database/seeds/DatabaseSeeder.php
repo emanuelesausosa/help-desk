@@ -16,5 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(CategoriaPortadasTableSeeder::class);
         $this->call(ContenidoPortadasTableSeeder::class);
         $this->call(OrganizacionDataTableSeeder::class);
+        $this->call(SlaTableSeeder::class);
+        $this->call(TicketPrioridadTableSeeder::class);
     }
 }

@@ -16,7 +16,7 @@ class CreateOrganizacionDatasTable extends Migration
         Schema::create('organizacion_data', function (Blueprint $table) {
             $table->integer('id')->unsigned();
             $table->string('direccion', 255);
-            $table->string('telefono', 20);
+            $table->string('telefono', 25);
             $table->string('extension', 6);
             $table->string('sitio_web', 255);
             $table->longText('notas');
