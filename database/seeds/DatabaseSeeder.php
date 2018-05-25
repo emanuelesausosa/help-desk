@@ -19,5 +19,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SlaTableSeeder::class);
         $this->call(TicketPrioridadTableSeeder::class);
         $this->call(TopicosTableSeeder::class);
+        $this->call(DepartamentosTableSeeder::class);
     }
 }
