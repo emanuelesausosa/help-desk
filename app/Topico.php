@@ -13,4 +13,8 @@ class Topico extends Model
     public function ticket_prioridad() {
         return $this->belongsTo('App\TicketPrioridad');
     }
+
+    public function tickets(){
+        return $this->hasMany('App\Ticket');
+    }
 }

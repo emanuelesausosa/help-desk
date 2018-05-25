@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Departamento extends Model
+class TicketEstado extends Model
 {
     public function tickets(){
         return $this->hasMany('App\Ticket');

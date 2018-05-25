@@ -11,4 +11,8 @@ class TicketPrioridad extends Model
     public function topicos(){
         return $this->hasMany('App\Topico');
     }
+
+    public function tickets(){
+        return $this->hasMany('App\TicketData');
+    }
 }

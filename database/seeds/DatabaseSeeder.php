@@ -20,5 +20,6 @@ class DatabaseSeeder extends Seeder
         $this->call(TicketPrioridadTableSeeder::class);
         $this->call(TopicosTableSeeder::class);
         $this->call(DepartamentosTableSeeder::class);
+        $this->call(TicketEstadoTableSeeder::class);
     }
 }
