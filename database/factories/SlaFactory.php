@@ -12,7 +12,7 @@ use App\Sla;
 $factory->define(App\Sla::class, function (Faker $faker) {
     return [
         'periodo_gracia' => $faker->randomNumber(),
-        'nombre' => $faker->text(55),
+        'nombre' => $faker->text(50),
         'notas' => $faker->text(100)
     ];
 });
